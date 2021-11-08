@@ -54,8 +54,8 @@
 <section class="about" id="about">
     <h1 class="heading">about <span> me </span></h1>
     <div class="row-1">
-        <div class="image">
-        </div>
+        <!--<div class="image">
+        </div> --> 
         <div class="content">
             <h3>My name is Tristan Harrower and I am a full-stack developer</h3>
             <p>I am experienced in both backend and front end web development. I love making websites and applications, feel free to check out the projects 
@@ -85,36 +85,19 @@
 
     <div class="box-container"> 
 
+
+        <div class="box">
+           <a href="https://th-yt-clone.web.app"> <img src="images/yt-clone-pic.png" alt=""></a>
+            <h3> Youtube Clone </h3>
+            <div class="icons">
+                <a href="#" class="fas fa-link"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-search"></a>
+            </div>
+        </div>
         <div class="box">
             <a href="./to-dolist/index.html"> <img src="./images/to-DoList.png" alt=""></a>
             <h3> To-Do List </h3></a>
-            <div class="icons">
-                <a href="#" class="fas fa-link"></a>
-                <a href="#" class="fas fa-share"></a>
-                <a href="#" class="fas fa-search"></a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="images/img-2.jpg" alt="">
-            <h3> Project 02 </h3>
-            <div class="icons">
-                <a href="#" class="fas fa-link"></a>
-                <a href="#" class="fas fa-share"></a>
-                <a href="#" class="fas fa-search"></a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="images/img-3.jpg" alt="">
-            <h3> Project 03 </h3>
-            <div class="icons">
-                <a href="#" class="fas fa-link"></a>
-                <a href="#" class="fas fa-share"></a>
-                <a href="#" class="fas fa-search"></a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="images/img-4.jpg" alt="">
-            <h3> Project 04 </h3>
             <div class="icons">
                 <a href="#" class="fas fa-link"></a>
                 <a href="#" class="fas fa-share"></a>
@@ -140,20 +123,14 @@
             <h3>Phone Number</h3>
             <p>614-525-0132</p>
         </div>
-
-        <div class="icons">
-            <i class="fas fa-map-marker-alt"></i>
-            <h3>Address</h3>
-            <p>74 E Hudson St., Columbus, Ohio</p>
-        </div>
     </div>
     <div class="row">
-        <form action="">
-            <input type="text"  placeholder="name" class="box">
-            <input type="email"  placeholder="email" class="box email">
-            <input type="number"  placeholder="number" class="box">
+        <form action="https://formspree.io/f/mjvjqzll" method="POST">
+            <input type="text"  placeholder="name" name="name" class="box">
+            <input type="email"  placeholder="email" name="email" class="box email">
+            <input type="number"  placeholder="number" name="number" class="box">
 
-            <textarea name="" id="" placeholder="message"  cols="30" rows="10"></textarea>
+            <textarea name="message" id="" placeholder="message"  cols="30" rows="10"></textarea>
 
             <input type="submit" class="btn" value="send message">
         </form>
