@@ -1,0 +1,1 @@
+Simple to-do List App made using HTML, CSS, JavaScript

@@ -244,8 +244,8 @@ header .follow a:hover{
     z-index: 1;
 }
 .portfolio .box-container .box:hover img{
-    height: 75%;
-    width: 75%;
+    height: 82.5%;
+    width: 82.5%;
 }
 
 .portfolio .box-container .box h3{
